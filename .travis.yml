@@ -6,9 +6,6 @@ sudo: required
 service:
   - docker
 
-install:
-  - composer install
-
 before_script:
   - docker-compose up composer
 
